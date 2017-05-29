@@ -16,6 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # os.path는 본인 소속 디렉토리보다 한단계 상위 디렉토리 경로를 의미
 print('BASE_DIR : {}'.format(BASE_DIR))
 # os.path.join을 사용해서 TEMPLATE_DIR변수에 django_app/temlates폴더의 경로를 할당
+TEMPLATE_DIR = os.path.join('templates')
 
 
 # Quick-start development settings - unsuitable for production
